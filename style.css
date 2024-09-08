@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  background-color: rgb(89, 88, 80);
+  background-image: url("BODY.avif");
+}
+.Search{
+height: 25px;
+width: 500px;
+border-radius: 25px;
+background: white;
+padding: 5px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+/* Home & About */
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+  gap: 15px;
+}
+.login{
+  font-size: larger;
+  font-weight: 700;
+}
+.signup{
+  font-size: larger;
+  font-weight: 700;
+}
+/* Logo etc */
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3 rem;
+}
+/* Container of Songs  */
+.container {
+  min-height: 75vh;
+  font-size: small;
+  font-weight: 300;
+  width: 70%;
+  position: relative;
+  left: 160px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-image: url("bg.jpg");
+  background-size: contain;
+}
+/* Bottom for Progress Bar */
+.bottom {
+  position: sticky;
+  height: 100px;
+  width: 99vw;
+  margin-left: -160px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom:0;
+  flex-direction: column;
+  
+}
+/* Progress Bar for Movinng Songs Forward and Reverse */
+#myProgressBar {
+  width: 80vw;
+  position: relative;
+  right: 40px;
+  top: 10px;
+}
+/* Forward & Play & Reverse Icons on Progress Bar */
+.icons {
+  color: aliceblue;
+  position: relative;
+  top: 15px;
+}
+.white-icon {
+  color: white;
+}
+/* Heading in Container */
+h1{
+  font-size: large;
+  color: white;
+margin: 10px;
+padding-top: 10px;
+}
+/* Song List complete */
+.song-list{
+    display: flex;
+    flex-direction: column;
+} 
+.songitem1{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    background: white;
+    border-radius: 30px;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.songName{
+    color: black;
+ position: relative;
+left: 70px;
+font-weight: 300;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cover1{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/1.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover2{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/2.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover3{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/3.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover4{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/4.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover5{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/5.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover6{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/6.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover7{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/7.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover8{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/8.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover9{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/9.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.cover10{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-image: url('covers/10.jpg');
+    background-size:cover;
+    position: relative;
+    right: 130px; 
+    justify-content: flex-end;                                                                                                                
+}
+.play-icon{
+  color: black;
+position: relative;
+bottom: 25px;
+left: 280px;
+gap: 5px;
+}
+.song-time{
+margin: 5px;
+position: relative;
+right: 55px;
+bottom: 1.5px;
+font-size: smaller;
+}
+.gif{
+  position: relative;
+  right: 500px;
+}
